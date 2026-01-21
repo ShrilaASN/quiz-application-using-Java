@@ -16,7 +16,7 @@ displays the final score at the end of the quiz.
 
 - Java (JDK 8 or above)  
 - Java Swing and AWT  
-- NetBeans / IntelliJ / Eclipse IDE  
+- NetBeans  
 
 ## How to Run
 
