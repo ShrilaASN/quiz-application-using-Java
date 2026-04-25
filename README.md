@@ -38,7 +38,7 @@ The project demonstrates **event-driven programming, GUI development, and logic 
 | ----------- | --------------- |
 | 💻 Language | Java (JDK 8+)   |
 | 🎨 GUI      | Java Swing, AWT |
-| 🛠️ IDE      | Apache NetBeans |
+| 🛠️ IDE     | Apache NetBeans |
 
 ---
 
@@ -83,6 +83,7 @@ D --> E[Use Lifeline (Optional)]
 E --> F[Submit Quiz]
 F --> G[Display Final Score]
 ```
+<img width="478" height="1345" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/923b857a-9d54-4eac-9817-43d0963b5d09" />
 
 ---
 
@@ -123,18 +124,9 @@ Login.java
 
 ---
 
-## 🚀 Future Enhancements
-
-* 🌐 Convert into Web Application (Spring Boot)
-* 🗄️ Add database (MySQL) for storing scores
-* 👤 User login & leaderboard system
-* 📊 Analytics dashboard for performance tracking
-
----
-
 ## 👩‍💻 Author
 
-**ShrilaASN**
+**Shrila A.S.N**
 🎓 Java Mini Project – Quiz Application
+[1]: https://www.scribd.com/document/853803239/Online-Quiz-Application-Report?utm_source=chatgpt.com "Java Online Quiz Application Project | PDF"
 
----
