@@ -1,38 +1,140 @@
-# Astro Champ – Java Quiz Application
 
-Astro Champ is a desktop-based quiz application developed using Java Swing as a mini project. 
-The application allows users to answer multiple-choice questions within a fixed time and 
-displays the final score at the end of the quiz.
+---
 
-## Features
+# 🌌 Astro Champ – Java Quiz Application
 
-- 15-second timer for each question  
-- 50-50 lifeline that can be used only once in the entire quiz  
-- Multiple-choice question system  
-- Final score display screen  
-- Simple and user-friendly interface using Java Swing  
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=java\&logoColor=white)
+![Swing](https://img.shields.io/badge/Java%20Swing-GUI-blue?style=for-the-badge)
+![Project](https://img.shields.io/badge/Project-Mini%20Project-brightgreen?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
-## Technologies Used
+> 🚀 A desktop-based **quiz application built with Java Swing**, designed to deliver an interactive, timed quiz experience with real-time scoring.
 
-- Java (JDK 8 or above)  
-- Java Swing and AWT  
-- NetBeans  
+---
 
-## How to Run
+## ✨ Overview
 
-1. Install JDK 8 or above  
-2. Open the project in any Java IDE  
-3. Make sure the icons folder is placed correctly  
-4. Run the file `Login.java`  
+**Astro Champ** is a Java GUI-based quiz application that allows users to attempt multiple-choice questions within a time limit and receive instant results.
 
-## Learning Outcomes
+The project demonstrates **event-driven programming, GUI development, and logic building**, which are core concepts in Java application development.
 
-- Designing GUI applications using Java Swing  
-- Handling events using ActionListener  
-- Implementing timers and quiz flow logic  
-- Understanding mini-project structure  
+💡 Applications like this typically use Swing components and event handling to create interactive quiz systems with timers and scoring features. ([Scribd][1])
 
-## Author
+---
 
-Shrila A.S.N  
-Java Mini Project – Quiz Application
+## 🎯 Key Features
+
+* ⏱️ **15-second timer** for each question
+* 🎯 **50-50 Lifeline** (usable once per quiz)
+* 📝 Multiple-choice question system
+* 🏆 Final score display screen
+* 🖥️ Clean and user-friendly GUI
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer       | Technology      |
+| ----------- | --------------- |
+| 💻 Language | Java (JDK 8+)   |
+| 🎨 GUI      | Java Swing, AWT |
+| 🛠️ IDE      | Apache NetBeans |
+
+---
+
+## 🧠 Core Concepts Demonstrated
+
+### 🔹 Object-Oriented Programming (OOP)
+
+* Structured code using classes and objects
+* Improves modularity and scalability
+
+### 🔹 GUI Development (Java Swing)
+
+* Components used:
+
+  * `JFrame`, `JLabel`, `JButton`, `JRadioButton`
+
+### 🔹 Event Handling
+
+* `ActionListener` used for user interactions
+* Enables dynamic quiz navigation
+
+### 🔹 Timer Implementation
+
+* Countdown logic for each question
+* Automatically moves to next question
+
+### 🔹 Quiz Flow Logic
+
+* Tracks answers and calculates score
+* Displays result at the end
+
+---
+
+## 🔄 Application Workflow
+
+```mermaid id="astroquizflow"
+flowchart TD
+A[Start Application] --> B[Login Screen]
+B --> C[Start Quiz]
+C --> D[Answer Questions with Timer]
+D --> E[Use Lifeline (Optional)]
+E --> F[Submit Quiz]
+F --> G[Display Final Score]
+```
+
+---
+
+## 📂 Project Structure
+
+```bash id="astrochamp"
+src/
+ ├── Login.java
+ ├── Quiz.java
+ ├── Score.java
+ └── icons/
+```
+
+---
+
+## ⚙️ How to Run
+
+```bash id="runastro"
+# Clone the repository
+git clone https://github.com/your-username/astro-champ.git
+
+# Open in NetBeans / any Java IDE
+# Ensure icons folder is correctly placed
+
+# Run
+Login.java
+```
+
+---
+
+## 🧠 Learning Outcomes
+
+* 🖥️ Built GUI applications using Java Swing
+* ⚡ Implemented event-driven programming
+* ⏱️ Designed timer-based systems
+* 🧩 Developed quiz logic & user interaction flow
+* 🏗️ Understood real-world mini project structure
+
+---
+
+## 🚀 Future Enhancements
+
+* 🌐 Convert into Web Application (Spring Boot)
+* 🗄️ Add database (MySQL) for storing scores
+* 👤 User login & leaderboard system
+* 📊 Analytics dashboard for performance tracking
+
+---
+
+## 👩‍💻 Author
+
+**ShrilaASN**
+🎓 Java Mini Project – Quiz Application
+
+---
