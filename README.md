@@ -74,15 +74,6 @@ The project demonstrates **event-driven programming, GUI development, and logic 
 
 ## 🔄 Application Workflow
 
-```mermaid id="astroquizflow"
-flowchart TD
-A[Start Application] --> B[Login Screen]
-B --> C[Start Quiz]
-C --> D[Answer Questions with Timer]
-D --> E[Use Lifeline (Optional)]
-E --> F[Submit Quiz]
-F --> G[Display Final Score]
-```
 <img width="478" height="1345" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/923b857a-9d54-4eac-9817-43d0963b5d09" />
 
 ---
